@@ -1,0 +1,15 @@
+#super-nav{
+    background-color: rgb(210, 240, 210);
+    
+}
+
+#nav-2{
+    background-color:#057253;
+    color: #ffffff;
+}
+
+.req::after {
+    content:"*";
+    color:red;
+  }
+
