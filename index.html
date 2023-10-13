@@ -33,14 +33,25 @@
         <div class="container">
           <div class="row">
             <div class="col d-flex">
-              <div class="col" id="image">
+              <div class="col d-flex justify-content-center" id="image">
                 <img
                   src="https://www.rogerpope.co.uk/assets/uploads/images/_galleryThumbnail/WCSM.jpg"
                   alt=""
                   width="100px"
+                  height="80px"
+                  class="my-2 rounded-circle"
                 />
+
+                <div class="col text py-2 px-3" style="font-size: 22px">
+                  <span><strong>The Worshipful Company </strong></span>
+                  <p><strong>of spectacle Makers</strong></p>
+                </div>
               </div>
-              <div class="col">col2</div>
+              <div class="col">
+                <input type="text" placeholder="search" />
+                <button type="button">Member LogIn</button>
+                <button type="button">cart</button>
+              </div>
             </div>
           </div>
         </div>
@@ -66,7 +77,7 @@
     </header>
 
     <main>
-      <form class="m-5">
+      <form class="m-3">
         <div class="container" id="main-container">
           <label class="req" for="wcsm ">Are You WCSM member?</label><br />
           <input type="radio" name="wcsm" required />Yes
@@ -273,7 +284,7 @@
       <div class="container-fluid mt-4 mb-4 border-top border-success border-4">
         <div class="container d-flex mt-4">
           <div class="col-8" id="text-footer">
-            <span class="text-success font-weight-bold"
+            <span style="color: #558b55"
               ><strong
                 >Terms and conditions:Data Protection|Cookie Policy|Credits|XML
                 Sitemap</strong
@@ -284,10 +295,21 @@
               Apothecaries'Hall Black Friars Lane,London,EC4V 6EL
             </p>
           </div>
-          <div class="col-4" id="text-icon">
-            <i class="fa fa-facebook-f"></i>
-            <i class="fab fa-linkedin-in"></i>
-            <i style="font-size: 24px" class="fa">&#xf099;</i>
+          <div class="col-4 d-flex justify-content-center p-3" id="text-icon">
+            <i style="font-size: 30px; color: #558b55" class="fa px-2"
+              >&#xf09a;</i
+            >
+            <i style="font-size: 30px; color: #558b55" class="fa px-2"
+              >&#xf0e1;</i
+            >
+            <i style="font-size: 30px; color: #558b55" class="fa px-2"
+              >&#xf099;</i
+            >
+            <i
+              style="font-size: 30px; color: #558b55"
+              class="fa px-2 font-color-success"
+              >&#xf16d;</i
+            >
           </div>
         </div>
       </div>
